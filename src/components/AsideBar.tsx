@@ -1,12 +1,13 @@
 export default function AsideBar () {
   return <aside>
-    <div>
-      <image src={'#'} alt={'myPhoto'}/>
-      <div>phone number</div>
-      <div>email</div>
-      <div>website</div>
-      <div>address</div>
-    </div>
+    <img src={'#'} alt={'myPhoto'}/>
+    <ul>
+
+      <li>phone number</li>
+      <li>email</li>
+      <li>website</li>
+      <li>address</li>
+    </ul>
 
     <div>
       <h3>SKILLS</h3>
@@ -23,6 +24,7 @@ export default function AsideBar () {
 
     <div>
       <h3>LANGUAGES</h3>
+      <hr/>
       <ul>
         <li>English</li>
         <li>Russian</li>
