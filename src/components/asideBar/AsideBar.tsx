@@ -1,3 +1,5 @@
+import styles from './asideBar.module.css'
+
 export default function AsideBar () {
   return <aside>
     <img src={'#'} alt={'myPhoto'}/>

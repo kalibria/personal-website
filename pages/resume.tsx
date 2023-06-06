@@ -1,5 +1,5 @@
-import MainInfo from '@/components/MainInfo';
-import AsideBar from '@/components/AsideBar';
+import MainInfo from '@/components/mainInfo/MainInfo';
+import AsideBar from '@/components/asideBar/AsideBar';
 import Layout from '@/components/Layout';
 
 export default function Resume() {
