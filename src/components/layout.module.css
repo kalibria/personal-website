@@ -3,4 +3,6 @@
     padding: 0 1rem;
     margin: 3rem auto 6rem;
 
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 }
