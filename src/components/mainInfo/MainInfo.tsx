@@ -4,7 +4,7 @@ export default function MainInfo(){
   return <>
   <main>
     <header>
-      <h1 className={styles.textHeaders}>Maria Kushlianskaya</h1>
+      <h1 className={styles.textHeaders}>MARIA KUSHLIANSKAYA</h1>
       <p className={styles.text}>Junior frontend developer</p>
     </header>
     <article>
