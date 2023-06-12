@@ -5,7 +5,7 @@
     border-radius: 50% 50%;
 
     background-image: url('../imgs/IMG (93).jpg');
-    /*background-clip: border-box;*/
+    background-size: cover;
 }
 
 /*.myPhoto {*/

@@ -2,7 +2,7 @@ import styles from './asideBar.module.css'
 
 export default function AsideBar () {
   return <aside>
-    <div className={styles.myPhotoContainer}><img src={'#'} alt={'myPhoto'}/></div>
+    <div className={styles.myPhotoContainer}/>
 
     <ul>
 
