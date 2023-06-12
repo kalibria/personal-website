@@ -2,7 +2,8 @@ import styles from './asideBar.module.css'
 
 export default function AsideBar () {
   return <aside>
-    <img src={'#'} alt={'myPhoto'}/>
+    <div className={styles.myPhotoContainer}><img src={'#'} alt={'myPhoto'}/></div>
+
     <ul>
 
       <li>phone number</li>

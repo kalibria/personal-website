@@ -5,6 +5,7 @@ import Layout from '@/components/Layout';
 export default function Resume() {
   return (<Layout>
     <AsideBar/>
+
     <MainInfo/>
   </Layout>)
 }
