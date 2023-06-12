@@ -2,7 +2,7 @@ import styles from './mainInfo.module.css'
 
 export default function MainInfo(){
   return <>
-  <main>
+  <main className={styles.mainContainer}>
     <header>
       <h1 className={styles.textHeaders}>MARIA KUSHLIANSKAYA</h1>
       <p className={styles.text}>Junior frontend developer</p>

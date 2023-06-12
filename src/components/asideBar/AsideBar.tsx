@@ -1,11 +1,10 @@
 import styles from './asideBar.module.css'
 
 export default function AsideBar () {
-  return <aside>
+  return <aside className={styles.asideBarContainer}>
     <div className={styles.myPhotoContainer}/>
 
     <ul>
-
       <li>phone number</li>
       <li>email</li>
       <li>website</li>
