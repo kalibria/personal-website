@@ -15,4 +15,16 @@
     background-size: cover;
 }
 
+.listItem {
+    list-style: none;
+}
+
+.listIcon {
+    margin-right: 10px;
+}
+
+.list {
+    padding: 0;
+}
+
 

@@ -1,14 +1,19 @@
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import styles from './asideBar.module.css'
+import {faPhone} from '@fortawesome/free-solid-svg-icons';
+import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
+import {faGlobe} from '@fortawesome/free-solid-svg-icons';
+import {faHouse} from '@fortawesome/free-solid-svg-icons';
 
 export default function AsideBar () {
-  return <aside className={styles.asideBarContainer}>
+  return (<aside className={styles.asideBarContainer}>
     <div className={styles.myPhotoContainer}/>
 
-    <ul>
-      <li>phone number</li>
-      <li>email</li>
-      <li>website</li>
-      <li>address</li>
+    <ul className={styles.list}>
+      <li className={styles.listItem}><FontAwesomeIcon icon={faPhone} className={styles.listIcon} />phone number</li>
+      <li className={styles.listItem}><FontAwesomeIcon icon={faEnvelope} className={styles.listIcon}/>email</li>
+      <li className={styles.listItem}><FontAwesomeIcon icon={faGlobe} className={styles.listIcon}/>website</li>
+      <li className={styles.listItem}><FontAwesomeIcon icon={faHouse} className={styles.listIcon}/>address</li>
     </ul>
 
     <div>
@@ -34,6 +39,6 @@ export default function AsideBar () {
       </ul>
     </div>
 
-  </aside>
+  </aside>)
 
 }
