@@ -9,33 +9,33 @@ export default function AsideBar () {
   return (<aside className={styles.asideBarContainer}>
     <div className={styles.myPhotoContainer}/>
 
-    <ul className={styles.list}>
-      <li className={styles.listItem}><FontAwesomeIcon icon={faPhone} className={styles.listIcon} />phone number</li>
-      <li className={styles.listItem}><FontAwesomeIcon icon={faEnvelope} className={styles.listIcon}/>email</li>
-      <li className={styles.listItem}><FontAwesomeIcon icon={faGlobe} className={styles.listIcon}/>website</li>
-      <li className={styles.listItem}><FontAwesomeIcon icon={faHouse} className={styles.listIcon}/>address</li>
+    <ul className={styles.contactsList}>
+      <li className={styles.contactListItem}><FontAwesomeIcon icon={faPhone} className={styles.listIcon} />phone number</li>
+      <li className={styles.contactListItem}><FontAwesomeIcon icon={faEnvelope} className={styles.listIcon}/>email</li>
+      <li className={styles.contactListItem}><FontAwesomeIcon icon={faGlobe} className={styles.listIcon}/>website</li>
+      <li className={styles.contactListItem}><FontAwesomeIcon icon={faHouse} className={styles.listIcon}/>address</li>
     </ul>
 
     <div>
       <h3>SKILLS</h3>
       <hr/>
-      <ul>
-        <li>Bookkeeping</li>
-        <li>Tax Filling</li>
-        <li>Data Entry</li>
-        <li>Data Analysis</li>
-        <li>Public Accounting</li>
-        <li>Business Assessment</li>
+      <ul className={styles.list}>
+        <li className={styles.listItem}>Bookkeeping</li>
+        <li className={styles.listItem}>Tax Filling</li>
+        <li className={styles.listItem}>Data Entry</li>
+        <li className={styles.listItem}>Data Analysis</li>
+        <li className={styles.listItem}>Public Accounting</li>
+        <li className={styles.listItem}>Business Assessment</li>
       </ul>
     </div>
 
     <div>
       <h3>LANGUAGES</h3>
       <hr/>
-      <ul>
-        <li>English</li>
-        <li>Russian</li>
-        <li>Poland</li>
+      <ul className={styles.list}>
+        <li className={styles.listItem}>English</li>
+        <li className={styles.listItem}>Russian</li>
+        <li className={styles.listItem}>Poland</li>
       </ul>
     </div>
 
