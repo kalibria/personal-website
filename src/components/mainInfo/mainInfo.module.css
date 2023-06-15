@@ -9,6 +9,10 @@
     margin: 3rem 1rem;
 }
 
+.list {
+    padding-left: 16px;
+}
+
 .subtitle {
     font-family: PlayfairDisplay, sans-serif;
     margin-bottom: 0;

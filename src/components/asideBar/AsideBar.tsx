@@ -1,9 +1,11 @@
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import Image from 'next/image';
 import styles from './asideBar.module.css'
 import {faPhone} from '@fortawesome/free-solid-svg-icons';
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
 import {faGlobe} from '@fortawesome/free-solid-svg-icons';
 import {faHouse} from '@fortawesome/free-solid-svg-icons';
+import linkedIn from '../imgs/linkedin.svg'
 
 
 export default function AsideBar () {
@@ -11,10 +13,16 @@ export default function AsideBar () {
     <div className={styles.myPhotoContainer}/>
 
     <ul className={styles.contactsList}>
-      <li className={styles.contactListItem}><FontAwesomeIcon icon={faPhone} className={styles.listIcon} />phone number</li>
-      <li className={styles.contactListItem}><FontAwesomeIcon icon={faEnvelope} className={styles.listIcon}/>mariakazakova92@gmail.com</li>
-      <li className={styles.contactListItem}><FontAwesomeIcon icon={faGlobe} className={styles.listIcon}/>website</li>
-      <li className={styles.contactListItem}><FontAwesomeIcon icon={faHouse} className={styles.listIcon}/>address</li>
+      <li className={styles.contactListItem}><FontAwesomeIcon icon={faPhone} className={styles.listIcon} width={16} height={16}/>phone number</li>
+      <li className={styles.contactListItem}><FontAwesomeIcon icon={faEnvelope} className={styles.listIcon} width={16} height={16}/>mariakazakova92@gmail.com</li>
+      <li className={styles.contactListItem}><FontAwesomeIcon icon={faGlobe} className={styles.listIcon} width={16} height={16}/>website</li>
+      <li className={styles.contactListItem}><FontAwesomeIcon icon={faHouse} className={styles.listIcon} width={16} height={16}/>address</li>
+      <li className={styles.contactListItem}><Image
+        src={'/github.svg'} width={18} height={18} alt={'Github'} className={styles.listIcon}/><a href={'https://github.com/kalibria'} target={'_blank'}>Github</a></li>
+      <li className={styles.contactListItem}><Image
+        src={linkedIn} width={18} height={18} alt={'Linkedin'} className={styles.listIcon}/><a href={'https://www.linkedin.com/in/mariya-kushlianskaya-228b3889/'} target={'_blank'}>Linkedin</a></li>
+
+
     </ul>
 
     <div>
@@ -22,28 +30,29 @@ export default function AsideBar () {
       <hr/>
       <h4 className={styles.subtitle2}>Languages</h4>
       <ul className={styles.list}>
-        <li className={styles.listItem}>HTML</li>
-        <li className={styles.listItem}>CSS</li>
-        <li className={styles.listItem}>Javascript</li>
-        <li className={styles.listItem}>TypeScript</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>TypeScript</li>
 
       </ul>
 
       <h4 className={styles.subtitle2}>Libraries</h4>
       <ul className={styles.list}>
-        <li className={styles.listItem}>React</li>
-        <li className={styles.listItem}>Redux</li>
+        <li>React</li>
+        <li>Redux</li>
       </ul>
 
       <h4 className={styles.subtitle2}>Testing</h4>
       <ul className={styles.list}>
-        <li className={styles.listItem}>Jest</li>
-        <li className={styles.listItem}>React testing library</li>
+        <li>Jest</li>
+        <li>React testing library</li>
       </ul>
 
       <h4 className={styles.subtitle2}>CI/CD</h4>
       <ul className={styles.list}>
-        <li className={styles.listItem}>GIT</li>
+        <li>GIT</li>
+        <li>Jira</li>
       </ul>
     </div>
 
@@ -51,9 +60,9 @@ export default function AsideBar () {
       <h3 className={styles.subtitle}>LANGUAGES</h3>
       <hr/>
       <ul className={styles.list}>
-        <li className={styles.listItem}>Russian - native</li>
-        <li className={styles.listItem}>English - intermediate</li>
-        <li className={styles.listItem}>Poland - elementary</li>
+        <li>Russian - native</li>
+        <li>English - intermediate</li>
+        <li>Poland - elementary</li>
       </ul>
     </div>
 

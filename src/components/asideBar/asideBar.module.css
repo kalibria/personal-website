@@ -22,11 +22,8 @@
 }
 
 .contactListItem {
+    display: flex;
     list-style: none;
-    margin-bottom: 10px;
-}
-
-.listItem {
     margin-bottom: 10px;
 }
 

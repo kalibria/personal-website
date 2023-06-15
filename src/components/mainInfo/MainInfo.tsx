@@ -38,7 +38,17 @@ export default function MainInfo(){
     <article>
       <h3 className={styles.subtitle}>EDUCATION</h3>
       <hr/>
-      <p4>Lorem ipsum</p4>
+      <ul className={styles.list}>
+        <li>
+          HTML academy course
+        </li>
+        <li>
+          Independent study of documentation
+        </li>
+        <li>
+          Work with mentor
+        </li>
+      </ul>
     </article>
   </main>
   </>
