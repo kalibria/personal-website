@@ -3,10 +3,11 @@
     padding: 3rem 1rem;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+
 }
 
 .myPhotoContainer{
-    background-color: pink;
+    background-color: darkgray;
     max-width: 150px;
     height: 150px;
     border-radius: 50% 50%;
@@ -37,7 +38,18 @@
 .list {
     padding: 0;
     margin-left: 15px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.subtitle {
+    font-family: PlayfairDisplay, sans-serif;
+    margin-bottom: 0;
+}
+
+.subtitle2 {
+    font-family: PlayfairDisplay, sans-serif;
+    margin: 0;
 }
 
 
