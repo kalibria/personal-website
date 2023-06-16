@@ -12,6 +12,7 @@ export default function MainInfo(){
         PROFESSIONAL EXPERIENCE
       </h3>
       <hr/>
+      <div className={styles.textContainer}>
       <p>Front-End Developer has portfolio with pet projects <a href={'https://github.com/kalibria'}>( https://github.com/kalibria)</a>. Started with a layout of the simplest pages using HTML and CSS.</p>
       <p>Step by step dived into front-end development and in their subsequent projects used <b>JavaScript, TypeScript, React, Redux, Redux Toolkit, CSS Grid,Css Flex, SASS, API requests.</b> Met <b>regular expressions, environment variables, local storage, BEM methodology, adaptive layout, Webpack, ES Modules, Bootstrap, Tailwind, Formik </b>and its. </p>
       <p>One of my latest projects is <b>Honda Tracker - booking app</b> <a href={'https://github.com/ilya-labs/Honda_tracker'}>(https://github.com/ilya-labs/Honda_tracker)</a>. Working on it  I used  <b>Jira, Git</b>, opened PRs, my mentor reviewed code.</p>
@@ -20,6 +21,7 @@ export default function MainInfo(){
        <p>Link to my GitHub <a href={'https://github.com/kalibria'}> https://github.com/kalibria.</a></p>
 
       <p>For now I am working on my personal web-site. It will be adaptive and I will use TypeScript, JavaScript, React, Redux, <b>Next.js.</b></p>
+      </div>
     </article>
     {/*<article>*/}
     {/*  <h3 className={styles.subtitle}>*/}
