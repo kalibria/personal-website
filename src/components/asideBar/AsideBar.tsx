@@ -18,9 +18,9 @@ export default function AsideBar () {
       <li className={styles.contactListItem}><FontAwesomeIcon icon={faGlobe} className={styles.listIcon} width={16} height={16}/>website</li>
       <li className={styles.contactListItem}><FontAwesomeIcon icon={faHouse} className={styles.listIcon} width={16} height={16}/>ул.Руссиянова д.5/2, г.Минск</li>
       <li className={styles.contactListItem}><Image
-        src={'/github.svg'} width={18} height={18} alt={'Github'} className={styles.listIcon}/><a href={'https://github.com/kalibria'} target={'_blank'}>Github</a></li>
+        src={'/github.svg'} width={18} height={18} alt={'Github'} className={styles.listIcon}/><a href={'https://github.com/kalibria'} target={'_blank'}>https://github.com/kalibria</a></li>
       <li className={styles.contactListItem}><Image
-        src={linkedIn} width={18} height={18} alt={'Linkedin'} className={styles.listIcon}/><a href={'https://www.linkedin.com/in/mariya-kushlianskaya-228b3889/'} target={'_blank'}>Linkedin</a></li>
+        src={linkedIn} width={18} height={18} alt={'Linkedin'} className={styles.listIcon}/><a href={'https://www.linkedin.com/in/mariya-kushlianskaya-228b3889/'} target={'_blank'}>https://www.linkedin.com/in/mariya-kushlianskaya-228b3889/</a></li>
     </ul>
 
     <div>

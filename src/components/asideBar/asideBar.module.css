@@ -20,6 +20,7 @@
 .contactsList {
     padding: 0;
     margin-bottom: 40px;
+    word-break: break-all;
 }
 
 .contactListItem {
