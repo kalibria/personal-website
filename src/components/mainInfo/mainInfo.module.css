@@ -11,6 +11,7 @@
 
 .list {
     padding-left: 16px;
+    font-size: 16px;
 }
 
 .subtitle {
@@ -20,6 +21,7 @@
 
 .textContainer {
     text-align: justify;
+    font-size: 16px;
 }
 
 .textHeaders {
