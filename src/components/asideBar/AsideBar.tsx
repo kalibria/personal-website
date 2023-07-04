@@ -13,14 +13,14 @@ export default function AsideBar () {
     <div className={styles.myPhotoContainer}/>
 
     <ul className={styles.contactsList}>
-      <li className={styles.contactListItem}><FontAwesomeIcon icon={faPhone} className={styles.listIcon} width={16} height={16}/>+375 29 292 34 04</li>
-      <li className={styles.contactListItem}><FontAwesomeIcon icon={faEnvelope} className={styles.listIcon} width={16} height={16}/>mariakazakova92@gmail.com</li>
-      <li className={styles.contactListItem}><FontAwesomeIcon icon={faGlobe} className={styles.listIcon} width={16} height={16}/>website</li>
-      <li className={styles.contactListItem}><FontAwesomeIcon icon={faHouse} className={styles.listIcon} width={16} height={16}/>ул.Руссиянова д.5/2, г.Минск</li>
+      <li className={styles.contactListItem}><FontAwesomeIcon icon={faPhone} className={styles.listIcon} width={18} height={18}/>+375 29 292 34 04</li>
+      <li className={styles.contactListItem}><FontAwesomeIcon icon={faEnvelope} className={styles.listIcon} width={18} height={18}/>mariakazakova92@gmail.com</li>
+      <li className={styles.contactListItem}><FontAwesomeIcon icon={faGlobe} className={styles.listIcon} width={18} height={18}/>website</li>
+      <li className={styles.contactListItem}><FontAwesomeIcon icon={faHouse} className={styles.listIcon} width={18} height={18}/>ready to relocate</li>
       <li className={styles.contactListItem}><Image
-        src={'/github.svg'} width={18} height={18} alt={'Github'} className={styles.listIcon}/><a href={'https://github.com/kalibria'} target={'_blank'}>https://github.com/kalibria</a></li>
+        src={'/github.svg'} width={18} height={18} alt={'Github'} className={styles.listIcon}/><a href={'https://github.com/kalibria'} target={'_blank'}>kalibria</a></li>
       <li className={styles.contactListItem}><Image
-        src={linkedIn} width={18} height={18} alt={'Linkedin'} className={styles.listIcon}/><a href={'https://www.linkedin.com/in/mariya-kushlianskaya-228b3889/'} target={'_blank'}>https://www.linkedin.com/in/mariya-kushlianskaya-228b3889/</a></li>
+        src={linkedIn} width={18} height={18} alt={'Linkedin'} className={styles.listIcon}/><a href={'https://www.linkedin.com/in/mariya-kushlianskaya-228b3889/'} target={'_blank'}>mariya-kushlianskaya</a></li>
     </ul>
 
     <div>
