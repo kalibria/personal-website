@@ -15,8 +15,8 @@ export default function AsideBar () {
     <ul className={styles.contactsList}>
       <li className={styles.contactListItem}><FontAwesomeIcon icon={faPhone} className={styles.listIcon} width={18} height={18}/>+375 29 292 34 04</li>
       <li className={styles.contactListItem}><FontAwesomeIcon icon={faEnvelope} className={styles.listIcon} width={18} height={18}/>mariakazakova92@gmail.com</li>
-      <li className={styles.contactListItem}><FontAwesomeIcon icon={faGlobe} className={styles.listIcon} width={18} height={18}/>website</li>
-      <li className={styles.contactListItem}><FontAwesomeIcon icon={faHouse} className={styles.listIcon} width={18} height={18}/>ready to relocate</li>
+      <li className={styles.contactListItem}><FontAwesomeIcon icon={faGlobe} className={styles.listIcon} width={18} height={18}/>kalibria.online</li>
+      <li className={styles.contactListItem}><FontAwesomeIcon icon={faHouse} className={styles.listIcon} width={18} height={18}/>Belarus. Ready to relocate</li>
       <li className={styles.contactListItem}><Image
         src={'/github.svg'} width={18} height={18} alt={'Github'} className={styles.listIcon}/><a href={'https://github.com/kalibria'} target={'_blank'}>kalibria</a></li>
       <li className={styles.contactListItem}><Image
@@ -26,29 +26,15 @@ export default function AsideBar () {
     <div>
       <h3 className={styles.subtitle}>SKILLS</h3>
       <hr/>
-      <h4 className={styles.subtitle2}>Languages</h4>
       <ul className={styles.list}>
-        <li>HTML</li>
-        <li>CSS</li>
+        <li>HTML5/CSS3</li>
         <li>Javascript</li>
-        <li>TypeScript</li>
-
-      </ul>
-
-      <h4 className={styles.subtitle2}>Libraries</h4>
-      <ul className={styles.list}>
+        <li>Typescript</li>
         <li>React</li>
         <li>Redux</li>
-      </ul>
-
-      <h4 className={styles.subtitle2}>Testing</h4>
-      <ul className={styles.list}>
+        <li>Redux Toolkit</li>
         <li>Jest</li>
         <li>React testing library</li>
-      </ul>
-
-      <h4 className={styles.subtitle2}>CI/CD</h4>
-      <ul className={styles.list}>
         <li>GIT</li>
         <li>Jira</li>
       </ul>
@@ -60,7 +46,7 @@ export default function AsideBar () {
       <ul className={styles.list}>
         <li>Russian - native</li>
         <li>English - intermediate</li>
-        <li>Poland - elementary</li>
+        <li>Polish - elementary</li>
       </ul>
     </div>
 
