@@ -10,18 +10,21 @@
 }
 
 .list {
+    font-family: PlayfairDisplay, sans-serif;
     padding-left: 16px;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .subtitle {
     font-family: PlayfairDisplay, sans-serif;
+    font-size: 16px ;
     margin-bottom: 0;
 }
 
 .textContainer {
     text-align: justify;
-    font-size: 16px;
+    font-family: PlayfairDisplay, sans-serif;
+    font-size: 14px;
 }
 
 .textHeaders {
@@ -31,6 +34,7 @@
 }
 
 .text {
+    font-family: PlayfairDisplay, sans-serif;
     margin: 0;
 }
 

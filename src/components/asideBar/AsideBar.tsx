@@ -5,7 +5,8 @@ import {faPhone} from '@fortawesome/free-solid-svg-icons';
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
 import {faGlobe} from '@fortawesome/free-solid-svg-icons';
 import {faHouse} from '@fortawesome/free-solid-svg-icons';
-import linkedIn from '../imgs/linkedin.svg'
+import linkedIn from '../imgs/linkedin.svg';
+
 
 
 export default function AsideBar () {
@@ -13,14 +14,16 @@ export default function AsideBar () {
     <div className={styles.myPhotoContainer}/>
 
     <ul className={styles.contactsList}>
-      <li className={styles.contactListItem}><FontAwesomeIcon icon={faPhone} className={styles.listIcon} width={18} height={18}/>+375 29 292 34 04</li>
-      <li className={styles.contactListItem}><FontAwesomeIcon icon={faEnvelope} className={styles.listIcon} width={18} height={18}/>mariakazakova92@gmail.com</li>
-      <li className={styles.contactListItem}><FontAwesomeIcon icon={faGlobe} className={styles.listIcon} width={18} height={18}/>kalibria.online</li>
-      <li className={styles.contactListItem}><FontAwesomeIcon icon={faHouse} className={styles.listIcon} width={18} height={18}/>Belarus. Ready to relocate</li>
+      <li className={styles.contactListItem}><FontAwesomeIcon icon={faPhone} className={styles.listIcon} width={14} height={14}/>+375 29 292 34 04</li>
+      <li className={styles.contactListItem}><FontAwesomeIcon icon={faEnvelope} className={styles.listIcon} width={14} height={14}/>mariakazakova92@gmail.com</li>
+      <li className={styles.contactListItem}><FontAwesomeIcon icon={faGlobe} className={styles.listIcon} width={14} height={14}/>kalibria.online</li>
+      <li className={styles.contactListItem}><FontAwesomeIcon icon={faHouse} className={styles.listIcon} width={14} height={14}/>Belarus. Ready to relocate</li>
       <li className={styles.contactListItem}><Image
-        src={'/github.svg'} width={18} height={18} alt={'Github'} className={styles.listIcon}/><a href={'https://github.com/kalibria'} target={'_blank'}>kalibria</a></li>
-      <li className={styles.contactListItem}><Image
-        src={linkedIn} width={18} height={18} alt={'Linkedin'} className={styles.listIcon}/><a href={'https://www.linkedin.com/in/mariya-kushlianskaya-228b3889/'} target={'_blank'}>mariya-kushlianskaya</a></li>
+        src={'/github.svg'} width={14} height={14} alt={'Github'} className={styles.listIcon}/><a href={'https://github.com/kalibria'} target={'_blank'}>kalibria</a></li>
+      <li className={styles.contactListItem}>
+        <Image
+          src={linkedIn}  width={14} height={14} alt={'Linkedin'} className={styles.listIcon}/>
+        <a href={'https://www.linkedin.com/in/mariya-kushlianskaya-228b3889/'} target={'_blank'}>mariya-kushlianskaya</a></li>
     </ul>
 
     <div>
@@ -47,6 +50,19 @@ export default function AsideBar () {
         <li>Russian - native</li>
         <li>English - intermediate</li>
         <li>Polish - elementary</li>
+      </ul>
+    </div>
+
+    <div>
+      <h3 className={styles.subtitle}>EDUCATION</h3>
+      <hr/>
+      <ul className={styles.list} >
+        <li>
+          since 2020: pet projects, documentation and theory studies, IT-centric English practice, work with mentor
+        </li>
+        <li>
+          2009-2014: Belarusian State University of Economics
+        </li>
       </ul>
     </div>
 
