@@ -11,8 +11,14 @@ import linkedIn from '../imgs/linkedin.svg';
 
 export default function AsideBar () {
   return (<aside className={styles.asideBarContainer}>
+    <div className={styles.photoAndContactsContainer}>
     <div className={styles.myPhotoContainer}/>
-
+      <header className={styles.asideBarHeader}>
+        <h1>MARIA KUSHLIANSKAYA</h1>
+        <p>FRONT-END DEVELOPER</p>
+        <hr/>
+      </header>
+    </div>
     <ul className={styles.contactsList}>
       <li className={styles.contactListItem}><FontAwesomeIcon icon={faPhone} className={styles.listIcon} width={14} height={14}/>+375 29 292 34 04</li>
       <li className={styles.contactListItem}><FontAwesomeIcon icon={faEnvelope} className={styles.listIcon} width={14} height={14}/>mariakazakova92@gmail.com</li>

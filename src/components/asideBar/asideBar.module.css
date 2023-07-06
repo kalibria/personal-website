@@ -6,6 +6,10 @@
 
 }
 
+.asideBarHeader {
+    display: none;
+}
+
 .myPhotoContainer{
     background-color: darkgray;
     max-width: 150px;
@@ -47,6 +51,53 @@
 
 .subtitle2 {
     margin: 0;
+}
+
+.photoAndContactsContainer {
+    display: block;
+}
+
+@media (max-width: 480px){
+    .asideBarContainer{
+        padding: 0.5rem 0.5rem;
+        background-color: white;
+    }
+
+    .asideBarHeader {
+        display: block;
+        margin: 0;
+        align-self: center;
+    }
+
+    .asideBarHeader h1 {
+        margin: 0;
+    }
+
+    .contactsList{
+        padding: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .myPhotoContainer{
+        background-color: darkgray;
+        width: 100%;
+        height: 150px;
+
+        background-image: url('../imgs/IMG (93)-min.jpg');
+        background-size: cover;
+        margin: auto;
+
+        border-radius: 5px;
+
+    }
+
+    .photoAndContactsContainer {
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+        grid-column-gap: 0.5rem;
+    }
 }
 
 
