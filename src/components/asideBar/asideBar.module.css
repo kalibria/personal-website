@@ -19,8 +19,6 @@
 
 .contactsList {
     padding: 0;
-    font-family: PlayfairDisplay, sans-serif;
-    font-size: 12px;
 }
 
 .contactListItem {
@@ -41,18 +39,13 @@
     padding: 0;
     margin-left: 15px;
     margin-top: 10px;
-    font-family: PlayfairDisplay, sans-serif;
-    font-size: 13px;
 }
 
 .subtitle {
-    font-family: PlayfairDisplay, sans-serif;
-    font-size: 15px;
     margin-bottom: 0;
 }
 
 .subtitle2 {
-    font-family: PlayfairDisplay, sans-serif;
     margin: 0;
 }
 
