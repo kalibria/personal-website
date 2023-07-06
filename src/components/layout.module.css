@@ -32,7 +32,6 @@
 
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(6, 1fr);
 
         font-family: PlayfairDisplay, sans-serif;
         font-size: 14px;

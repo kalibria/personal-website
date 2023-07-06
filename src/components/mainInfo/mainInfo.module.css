@@ -33,3 +33,14 @@
     }
 }
 
+@media (max-width: 480px) {
+    .mainContainer{
+        margin: 0;
+        padding: 0.5rem 0.5rem;
+    }
+
+    .mainContainer header {
+        display: none;
+    }
+}
+
