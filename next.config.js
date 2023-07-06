@@ -4,8 +4,7 @@ const nextConfig = {
         unoptimized: true
     },
     typescript: {
-        // todo remove this once website is done
-        ignoreBuildErrors: true,
+        ignoreBuildErrors: false,
     },
     output: "export",
 }
