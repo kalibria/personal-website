@@ -9,7 +9,6 @@
     max-width: 48rem;
     margin: 1rem auto 1rem;
 
-
     border: solid #8080805c 2px;
     border-radius: 15px;
 
@@ -22,6 +21,22 @@
     -webkit-print-color-adjust: exact !important;   /* Chrome, Safari 6 – 15.3, Edge */
     color-adjust: exact !important;                 /* Firefox 48 – 96 */
     print-color-adjust: exact !important;           /* Firefox 97+, Safari 15.4+ */
+}
+
+@media (max-width: 480px){
+    .container {
+        width: 100%;
+        margin: 1rem auto 1rem;
+
+        border: none;
+
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr);
+
+        font-family: PlayfairDisplay, sans-serif;
+        font-size: 14px;
+    }
 }
 
 
