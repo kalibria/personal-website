@@ -3,7 +3,9 @@
     padding: 3rem 1rem;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-
+    display: grid;
+    align-content: start;
+    grid-row-gap: 30px;
 }
 
 .asideBarHeader {

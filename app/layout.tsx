@@ -9,11 +9,13 @@ export const metadata = {
   description: 'Frontend developer',
 }
 
-export default function RootLayout({
-  children,
-}: {
+interface Props {
   children: React.ReactNode
-}) {
+}
+
+export default function Layout({
+  children,
+}: Props) {
   return (
     <html lang="en">
       <body className={inter.className}>{children}</body>

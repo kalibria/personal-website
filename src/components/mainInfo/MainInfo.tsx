@@ -6,9 +6,10 @@ export default function MainInfo(){
     <header>
       <h1 className={styles.textHeaders}>MARIA KUSHLIANSKAYA</h1>
       <p className={styles.text}>FRONT-END DEVELOPER</p>
+      <hr/>
     </header>
     <article>
-      <hr/>
+
       <div className={styles.textContainer}>
         <p>I am Maria, an ambitious and highly motivated developer willing to jumpstart my career in an exciting world of web technologies.</p>
         <p>During the 2 years of my studies, I dedicated myself to learning JavaScript and React, and also battle-tested these skills by doing personal projects. I am particularly proud of <a
@@ -42,19 +43,6 @@ export default function MainInfo(){
 
       </div>
     </article>
-    {/*<article>*/}
-    {/*  <h3 className={styles.subtitle}>EDUCATION</h3>*/}
-    {/*  <hr/>*/}
-    {/*  <ul className={styles.list} >*/}
-    {/*    <li>*/}
-    {/*      since 2020: pet projects, documentation and theory studies, IT-centric English practice, work with mentor*/}
-    {/*    </li>*/}
-    {/*    <li>*/}
-    {/*      2009-2014: Belarusian State University of Economics*/}
-    {/*    </li>*/}
-
-    {/*  </ul>*/}
-    {/*</article>*/}
   </main>
   </>
 }
