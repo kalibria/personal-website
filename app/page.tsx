@@ -1,10 +1,13 @@
-import styles from './page.module.css'
+import AsideBar from "@/components/asideBar/AsideBar";
+import MainInfo from "@/components/mainInfo/MainInfo";
+import Layout from "@/components/Layout";
 
 const Home = () => {
-  return <div>
-    <h1>This is Mary's site!</h1>
-    <p>Site under development</p>
-  </div>
+    return <Layout>
+        <AsideBar/>
+
+        <MainInfo/>
+    </Layout>
 }
 
 
