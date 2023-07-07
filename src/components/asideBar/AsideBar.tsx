@@ -12,7 +12,7 @@ import linkedIn from '../imgs/linkedin.svg';
 export default function AsideBar () {
   return (<aside className={styles.asideBarContainer}>
     <div className={styles.photoAndContactsContainer}>
-    <div className={styles.myPhotoContainer}/>
+    <div className={styles.myPhotoContainer} priority='true'/>
       <header className={styles.asideBarHeader}>
         <h1>MARIA KUSHLIANSKAYA</h1>
         <p>FRONT-END DEVELOPER</p>
