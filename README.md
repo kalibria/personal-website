@@ -1,32 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Personal website
 
-First, run the development server:
+The purpose of this website is to showcase the mine skills, portfolio, and any other relevant information.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Table content
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Status](#status)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Technologies
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+* Next.js 13.4
+* Typescript 5.0/Javascript
+* React 18.2
+* CSS Grid
 
-## Learn More
+## Setup
 
-To learn more about Next.js, take a look at the following resources:
+To run this project, install it locally using npm:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* cd ../personal_website
+* npm install
+* npm run dev
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Status
 
-## Deploy on Vercel
+The website is on a developing stage. For now website is only a CV page(website and mobile version). I am planing create a full site that will includes the following features:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+* Home: A page that introduces the developer and provides a brief overview of their skills and experience.
+* Portfolio: An interactive gallery showcasing the developer's past projects, with the ability to view project details and click through to live demos.
+* Skills: A comprehensive list of the developer's technical skills, including proficiency levels and relevant experience.
+* Contact: A contact form where visitors can reach out to the developer for inquiries, collaborations, or hiring opportunities.
+ 
