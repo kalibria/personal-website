@@ -83,3 +83,9 @@ a {
 }
 
 
+@media (max-width: 480px) {
+  body{
+    background-color: #f5d9b04a;
+  }
+}
+

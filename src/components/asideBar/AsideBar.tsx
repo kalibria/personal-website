@@ -21,7 +21,7 @@ export default function AsideBar () {
     </div>
     <ul className={styles.contactsList}>
       <li className={styles.contactListItem}><FontAwesomeIcon icon={faPhone} className={styles.listIcon} width={14} height={14}/>+375 29 292 34 04</li>
-      <li className={styles.contactListItem}><FontAwesomeIcon icon={faEnvelope} className={styles.listIcon} width={14} height={14}/>mariakazakova92@gmail.com</li>
+      <li className={`${styles.contactListItem} + ${styles.asideBarEmail}`} ><FontAwesomeIcon icon={faEnvelope} className={styles.listIcon} width={14} height={14}/><p className={styles.asideBarEmailText}>mariakazakova92@gmail.com</p></li>
       <li className={styles.contactListItem}><FontAwesomeIcon icon={faGlobe} className={styles.listIcon} width={14} height={14}/><a href={'https://kalibria.online'} target={'_blank'}>kalibria.online</a></li>
       <li className={styles.contactListItem}><FontAwesomeIcon icon={faHouse} className={styles.listIcon} width={14} height={14}/>Relocating to Poland</li>
       <li className={styles.contactListItem}><Image
@@ -30,6 +30,7 @@ export default function AsideBar () {
         <Image
           src={linkedIn}  width={14} height={14} alt={'Linkedin'} className={styles.listIcon}/>
         <a href={'https://www.linkedin.com/in/mariya-kushlianskaya-228b3889/'} target={'_blank'}>mariya-kushlianskaya</a></li>
+
     </ul>
 
     <div>
