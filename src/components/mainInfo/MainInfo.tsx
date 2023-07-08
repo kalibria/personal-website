@@ -16,7 +16,7 @@ export default function MainInfo(){
           href="https://github.com/kalibria/Family-car-booking-app#readme" target={'_blank'}>Family Car Booking App</a>, where I successfully implemented quite complex functionalities using Typescript, React and Redux, CSS. </p>
         <p className={styles.nonPrintable}>After doing multiple pet projects (you can see them all here <a href={'https://github.com/kalibria'}>github.com/kalibria</a>) over a couple of years, I am pretty sure I am ready to start developing web apps professionally.</p>
 
-          <ul className={styles.list}>
+          <ul>
             <b>My skills:</b>
             <li><b>Languages:</b> Javascript, Typescript</li>
             <li><b>React ecosystem:</b> React, Redux, Redux Toolkit, RTK Query, Formik and other React libs</li>

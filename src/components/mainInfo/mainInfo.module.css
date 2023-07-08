@@ -1,3 +1,7 @@
+.list{
+    list-style: inside;
+}
+
 .mainContainer {
     margin: 3rem 1rem;
     display: grid;
@@ -26,6 +30,8 @@
 .text {
     margin: 0;
 }
+
+
 
 @media print {
     .nonPrintable {
