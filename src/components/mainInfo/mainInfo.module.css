@@ -1,5 +1,7 @@
-.list{
-    list-style: inside;
+.list li::before {
+    content: "•"; /* Use any bullet or numbering style you prefer */
+    display: inline-block;
+    width: 1em; /* Adjust the width as needed */
 }
 
 .mainContainer {

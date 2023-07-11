@@ -24,7 +24,6 @@ export default function MainInfo(){
             <li><b>Other:</b> Know how to use Postman for backend requests, utilize Jest and React Testing Library in pet projects. Use Git CLI and know how to work with Github</li>
             </ul>
 
-
           <ul className={styles.list}>
             <b>Why me:</b>
             <li>Write modular code with low coupling</li>
