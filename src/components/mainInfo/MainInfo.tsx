@@ -38,7 +38,7 @@ export default function MainInfo(){
         <p className={styles.nonPrintable}>There’s still a lot to learn of course! As for technologies, my plans include new CSS stuff like container queries and layers, as well as Storybook, Redux Saga, Styled Components, GraphQL, PWAs and more. I will continue working to increase my English language level. Long term, I am also interested in people and resource management.
         </p>
         <p className={styles.nonPrintable}>I am eager to work alongside experienced developers who can mentor and guide me towards becoming a proficient frontend developer.</p>
-        <p>In my opinion, modern web technologies, together with AI, is what are pushing many successful businesses forward, and I want to be part of this process. </p>
+        <p>In my opinion, modern web technologies, together with AI, is what pushes successful businesses forward, and I want to help companies drive this effort. </p>
 
       </div>
     </article>
