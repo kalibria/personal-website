@@ -39,6 +39,11 @@
     }
 }
 
+@media print {
+    .container{
+        border-radius: 0;
+    }
+}
 
 
 
