@@ -3,9 +3,15 @@
     border-radius: 5px;
     padding: 5px 15px;
     margin: 30px;
-    background-color: #eba7299c;
+    background-color: sandybrown;
 }
 
 .buttonPrint:hover {
     background-color: #f5deb361;
+}
+
+@media print {
+    .buttonPrint {
+        display: none;
+    }
 }
