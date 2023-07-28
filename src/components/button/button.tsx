@@ -2,8 +2,14 @@
 import React from 'react';
 import styles from 'src/components/resume/resume.module.css';
 
-const Button = () =>{
-  return <button className={styles.buttonPrint} onClick={e => window.print()}>Print</button>
+interface IButton {
+  inscription: string;
+  handleClick: React.MouseEventHandler<HTMLButtonElement>
+}
+
+
+const Button = ({handleClick,inscription}: IButton) =>{
+  return <button className={styles.buttonPrint} onClick={handleClick}>{inscription}</button>
 }
 
 export default Button;
