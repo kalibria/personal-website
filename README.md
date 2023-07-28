@@ -1,7 +1,9 @@
 
-# Maryia Kushlianskaya's personal website
+# Maryia Kushlianskaya - personal website
 
 The purpose of this website is to showcase my skills, portfolio, and any other relevant information.
+
+URL: [kalibria.online](https://kalibria.online)
 
 ## Table of contents
 
