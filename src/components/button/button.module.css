@@ -1,0 +1,11 @@
+.buttonPrint {
+    border: solid #8080805c 2px;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin: 30px;
+    background-color: #eba7299c;
+}
+
+.buttonPrint:hover {
+    background-color: #f5deb361;
+}

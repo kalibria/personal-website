@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import styles from 'src/components/resume/resume.module.css';
+import styles from './button.module.css'
 
 interface IButton {
   inscription: string;

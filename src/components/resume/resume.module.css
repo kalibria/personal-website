@@ -1,10 +1,3 @@
-.buttonPrint {
-    border: solid #8080805c 2px;
-    border-radius: 5px;
-    padding: 5px 15px;
-    margin: 30px;
-}
-
 .resumeContainer {
     max-width: 48rem;
     margin: 1rem auto 1rem;
