@@ -23,7 +23,7 @@ export default function AsideBar () {
       <li className={styles.contactListItem}><FontAwesomeIcon icon={faPhone} className={styles.listIcon} width={14} height={14}/>+375 29 292 34 04</li>
       <li className={`${styles.contactListItem} + ${styles.asideBarEmail}`} ><FontAwesomeIcon icon={faEnvelope} className={styles.listIcon} width={14} height={14}/><p className={styles.asideBarEmailText}>mariakazakova92@gmail.com</p></li>
       <li className={styles.contactListItem}><FontAwesomeIcon icon={faGlobe} className={styles.listIcon} width={14} height={14}/><a href={'https://kalibria.online'} target={'_blank'}>kalibria.online</a></li>
-      <li className={styles.contactListItem}><FontAwesomeIcon icon={faHouse} className={styles.listIcon} width={14} height={14}/>Relocating to Poland</li>
+      <li className={styles.contactListItem}><FontAwesomeIcon icon={faHouse} className={styles.listIcon} width={14} height={14}/>Belarus</li>
       <li className={styles.contactListItem}><Image
         src={'/github.svg'} width={14} height={14} alt={'Github'} className={styles.listIcon}/><a href={'https://github.com/kalibria'} target={'_blank'}>kalibria</a></li>
       <li className={styles.contactListItem}>
@@ -51,7 +51,6 @@ export default function AsideBar () {
       <ul className={styles.list}>
         <li>Russian - native</li>
         <li>English - intermediate</li>
-        <li>Polish - elementary</li>
       </ul>
     </div>
 
