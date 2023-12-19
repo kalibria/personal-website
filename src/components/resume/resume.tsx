@@ -1,16 +1,16 @@
 "use client";
 import React from 'react';
-import Button from '../button/button';
+import LangButton from 'src/components/buttons/ToggleButton';
+import Button from '../buttons/button';
 import AsideBar from '../asideBar/AsideBar'
 import MainInfo from '../mainInfo/MainInfo';
 import styles from './resume.module.css';
 
 
-
-
 function Resume() {
   return (<div className={styles.resumePage}>
       <Button handleClick={e => window.print()} inscription={"Print"}/>
+      <LangButton/>
       <div className={styles.resumeContainer}>
         <AsideBar/>
         <MainInfo/>

@@ -72,7 +72,7 @@ select {
   -webkit-appearance: none;
 }
 
-/* 8. Remove default button styles */
+/* 8. Remove default buttons styles */
 button {
   cursor: pointer;
 }
