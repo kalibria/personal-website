@@ -1,10 +1,12 @@
+
 import styles from './mainInfo.module.css'
 
 export default function MainInfo(){
+
   return <>
   <main className={styles.mainContainer}>
     <header>
-      <h1 className={styles.textHeaders}>MARIA KUSHLIANSKAYA</h1>
+      <h1>MARIA KUSHLIANSKAYA</h1>
       <p className={styles.text}>FRONT-END DEVELOPER</p>
       <hr/>
     </header>

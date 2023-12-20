@@ -1,6 +1,6 @@
 "use client";
-import React from 'react';
-import LangButton from 'src/components/buttons/ToggleButton';
+import React, {useState} from 'react';
+import LangButton from '../buttons/ToggleButton';
 import Button from '../buttons/button';
 import AsideBar from '../asideBar/AsideBar'
 import MainInfo from '../mainInfo/MainInfo';

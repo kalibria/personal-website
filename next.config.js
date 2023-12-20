@@ -4,9 +4,9 @@ const nextConfig = {
         unoptimized: true
     },
     typescript: {
-        ignoreBuildErrors: false,
+        ignoreBuildErrors: false
     },
-    output: "export",
+    output: "export"
 }
 
 module.exports = nextConfig

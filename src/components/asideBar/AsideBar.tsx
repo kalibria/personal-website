@@ -7,9 +7,7 @@ import {faGlobe} from '@fortawesome/free-solid-svg-icons';
 import {faHouse} from '@fortawesome/free-solid-svg-icons';
 import linkedIn from '../imgs/linkedin.svg';
 
-
-
-export default function AsideBar () {
+function AsideBar () {
   return (<aside className={styles.asideBarContainer}>
     <div className={styles.photoAndContactsContainer}>
     <div className={styles.myPhotoContainer} />
@@ -70,3 +68,5 @@ export default function AsideBar () {
   </aside>)
 
 }
+
+export default AsideBar;
