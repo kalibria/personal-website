@@ -1,13 +1,13 @@
 "use client";
 import React, {useState} from 'react';
-import LangButton from '../buttons/ToggleButton';
-import Button from '../buttons/button';
-import AsideBar from '../asideBar/AsideBar'
-import MainInfo from '../mainInfo/MainInfo';
+import LangButton from '../components/buttons/ToggleButton';
+import Button from '../components/buttons/button';
+import AsideBar from '../components/asideBar/AsideBar'
+import MainInfo from '../components/mainInfo/MainInfo';
 import styles from './resume.module.css';
 
 
-function Resume() {
+function Page() {
   return (<div className={styles.resumePage}>
       <Button handleClick={e => window.print()} inscription={"Print"}/>
       <LangButton/>
@@ -20,4 +20,4 @@ function Resume() {
   )
 }
 
-export default Resume;
+export default Page;

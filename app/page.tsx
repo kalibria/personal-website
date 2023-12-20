@@ -1,11 +1,11 @@
-import Layout from "@/components/Layout";
-import Resume from '@/components/resume/resume';
+import Resume from './resume/page';
+import Wrapper from './components/Wrapper';
 
 
 const Home = () => {
-    return <Layout>
+    return <Wrapper>
         <Resume />
-    </Layout>
+    </Wrapper>
 }
 
 

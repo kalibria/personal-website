@@ -5,6 +5,6 @@ interface Props {
   children: React.ReactNode
 }
 
-export default function Layout({children}: Props){
+export default function Wrapper({children}: Props){
   return <div className={styles.container}>{children}</div>
 }
