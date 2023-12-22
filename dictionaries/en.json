@@ -1,4 +1,7 @@
 {
+  "buttons": {
+    "print": "print"
+  },
   "asideBar": {
     "country": "Belarus",
     "skills": {

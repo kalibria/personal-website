@@ -1,36 +1,34 @@
-import {useState} from 'react';
-import * as React from 'react';
-import ToggleButton from '@mui/material/ToggleButton';
-import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
+'use client'
 
-export default function ToggleButtons( ) {
-  const [alignment, setAlignment] = React.useState<string | null>('left');
+import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 
+import { i18n } from '../../../../i18n.config'
 
-  const handleAlignment = (
-    event: React.MouseEvent<HTMLElement>,
-    newAlignment: string | null,
-  ) => {
-    if (newAlignment !== null) {
-      setAlignment(newAlignment);
-    }
-  };
+export default function ToggleButton() {
+  const pathName = usePathname()
+
+  const redirectedPathName = (locale: string) => {
+    if (!pathName) return '/'
+    const segments = pathName.split('/')
+    segments[1] = locale
+    return segments.join('/')
+  }
 
   return (
-    <ToggleButtonGroup
-      value={alignment}
-      exclusive
-      onChange={handleAlignment}
-      aria-label="text alignment"
-      size="small"
-      color="primary"
-    >
-      <ToggleButton value="left" aria-label="left aligned">
-        En
-      </ToggleButton>
-      <ToggleButton value="right" aria-label="centered">
-        Ru
-      </ToggleButton>
-    </ToggleButtonGroup>
-  );
+    <ul className='flex gap-x-3'>
+      {i18n.locales.map(locale => {
+        return (
+          <li key={locale}>
+            <Link
+              href={redirectedPathName(locale)}
+              className='rounded-md border bg-black px-3 py-2 text-white'
+            >
+              {locale}
+            </Link>
+          </li>
+        )
+      })}
+    </ul>
+  )
 }

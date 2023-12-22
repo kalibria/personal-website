@@ -1,4 +1,7 @@
 {
+  "buttons": {
+    "print": "печать"
+  },
   "asideBar": {
     "country": "Буларусь",
     "skills": {

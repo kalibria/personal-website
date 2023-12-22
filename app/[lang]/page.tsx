@@ -1,8 +1,7 @@
-import Resume from './resume/page';
+import Page from 'app/[lang]/resume/page';
 import Wrapper from './components/Wrapper';
 import { Locale } from '../../i18n.config';
-import { getDictionary } from  './lib/dictionary'
-
+import {getDictionary} from './dictionaries'
 
 const Home = async ({
   params: { lang }
@@ -12,7 +11,7 @@ const Home = async ({
   const {page} = await getDictionary(lang)
     return (
   <Wrapper>
-        <Resume page={page}/>
+        hey111
     </Wrapper>
     )
 }

@@ -22,6 +22,7 @@ interface Props {
 
 export default function Layout({
   children,
+  params
 }: Props) {
   return (
     <html lang={params.lang}>
