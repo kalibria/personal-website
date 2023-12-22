@@ -1,45 +1,48 @@
+import {IMainInfo} from 'app/[lang]/components/mainInfo/interfaces';
+import {getDictionary} from 'app/[lang]/dictionaries';
+import {Locale} from 'i18n.config';
 import styles from './mainInfo.module.css'
 
-export default function MainInfo(){
+export default  function MainInfo({mainInfo}:IMainInfo ){
 
   return <>
     <main className={styles.mainContainer}>
       <header>
-        <h1>MARIA KUSHLIANSKAYA</h1>
-        <p className={styles.text}>FRONT-END DEVELOPER</p>
+        <h1>{mainInfo.aboutMaria.name}</h1>
+        <p className={styles.text}>{mainInfo.aboutMaria.role}</p>
         <hr/>
       </header>
       <article>
 
         <div className={styles.textContainer}>
-          <p>I am Maria, an ambitious and highly motivated developer willing to jumpstart my career in an exciting world of web technologies.</p>
-          <p>During the 2 years of my studies, I dedicated myself to learning JavaScript and React, and also battle-tested these skills by doing personal projects. I am particularly proud of <a
-            href="https://github.com/kalibria/Family-car-booking-app#readme" target={'_blank'}>Family Car Booking App</a>, where I successfully implemented quite complex functionalities using Typescript, React and Redux, CSS. </p>
-          <p className={styles.nonPrintable}>After doing multiple pet projects (you can see them all here <a href={'https://github.com/kalibria'}>github.com/kalibria</a>) over a couple of years, I am pretty sure I am ready to start developing web apps professionally.</p>
+          <p>{mainInfo.aboutMaria.introduction}</p>
+          <p>{mainInfo.aboutMaria.proudProject1} <a
+            href="https://github.com/kalibria/Family-car-booking-app#readme" target={'_blank'}>Family Car Booking App</a>{mainInfo.aboutMaria.proudProject2} </p>
+          <p className={styles.nonPrintable}>{mainInfo.aboutMaria.petProjects1} <a href={'https://github.com/kalibria'}>github.com/kalibria</a>) {mainInfo.aboutMaria.petProjects2}</p>
 
           <ul>
-            <b>My skills:</b>
-            <li><b>Languages:</b> Javascript, Typescript</li>
-            <li><b>React ecosystem:</b> React, Redux, Redux Toolkit, RTK Query, Formik and other React libs</li>
-            <li><b>Styling:</b> CSS3, SCSS, Material UI, Bootstrap, a bit of Ant Design. Use CSS Flexbox and some CSS Grid to design web pages. Practice responsive design</li>
-            <li><b>Other:</b> Know how to use Postman for backend requests, utilize Jest and React Testing Library in pet projects. Use Git CLI and know how to work with Github</li>
+            <b>{mainInfo.highlightedWords.mySkills}</b>
+            <li><b>{mainInfo.highlightedWords.languages}</b> {mainInfo.skills.languages}</li>
+            <li><b>{mainInfo.highlightedWords.reactEcosystem}</b> {mainInfo.skills.reactEcosystem}</li>
+            <li><b>{mainInfo.highlightedWords.styling}</b> {mainInfo.skills.styling}</li>
+            <li><b>{mainInfo.highlightedWords.other}</b> {mainInfo.skills.other}</li>
           </ul>
 
           <ul className={styles.list}>
-            <b>Why me:</b>
-            <li>Write modular code with low coupling</li>
-            <li>Understand the principles of component design</li>
-            <li>Use mappers to decouple frontend data from backend specifics</li>
-            <li>Always think about application structure and how my changes will affect it</li>
-            <li>Work on my pet projects using Jira, decomposing tasks and creating PRs to be reviewed by the mentor</li>
-            <li>Learn technologies by reading documentation in English as it is the best source of information</li>
+            <b>{mainInfo.highlightedWords.whyMe}</b>
+            <li>{mainInfo.whyMe.modularCode}</li>
+            <li>{mainInfo.whyMe.componentDesign}</li>
+            <li>{mainInfo.whyMe.mappers}</li>
+            <li>{mainInfo.whyMe.structure}</li>
+            <li>{mainInfo.whyMe.workflow}</li>
+            <li>{mainInfo.whyMe.learnTech}</li>
           </ul>
 
-          <p className={styles.nonPrintable}>For now I am working on my personal website. It will be responsive and I am planning to use TypeScript, React, Redux and Next.js.</p>
-          <p className={styles.nonPrintable}>There’s still a lot to learn of course! As for technologies, my plans include new CSS stuff like container queries and layers, as well as Storybook, Redux Saga, Styled Components, GraphQL, PWAs and more. I will continue working to increase my English language level. Long term, I am also interested in people and resource management.
+          <p className={styles.nonPrintable}>{mainInfo.currentProject}.</p>
+          <p className={styles.nonPrintable}>{mainInfo.futurePlans}
           </p>
-          <p className={styles.nonPrintable}>I am eager to work alongside experienced developers who can mentor and guide me towards becoming a proficient frontend developer.</p>
-          <p>In my opinion, modern web technologies, together with AI, is what pushes successful businesses forward, and I want to help companies drive this effort. </p>
+          <p className={styles.nonPrintable}>{mainInfo.eagerToWork}</p>
+          <p>{mainInfo.contribution} </p>
 
         </div>
       </article>
