@@ -6,6 +6,7 @@ import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
 import {faGlobe} from '@fortawesome/free-solid-svg-icons';
 import {faHouse} from '@fortawesome/free-solid-svg-icons';
 import linkedIn from '../imgs/linkedin.svg';
+import gitHub from '/public/github.svg'
 
 function AsideBar () {
   return (<aside className={styles.asideBarContainer}>
@@ -21,12 +22,12 @@ function AsideBar () {
       <li className={styles.contactListItem}><FontAwesomeIcon icon={faPhone} className={styles.listIcon} width={14} height={14}/>+375 29 292 34 04</li>
       <li className={`${styles.contactListItem} + ${styles.asideBarEmail}`} ><FontAwesomeIcon icon={faEnvelope} className={styles.listIcon} width={14} height={14}/><p className={styles.asideBarEmailText}>mariakazakova92@gmail.com</p></li>
       <li className={styles.contactListItem}><FontAwesomeIcon icon={faGlobe} className={styles.listIcon} width={14} height={14}/><a href={'https://kalibria.online'} target={'_blank'}>kalibria.online</a></li>
-      <li className={styles.contactListItem}><FontAwesomeIcon icon={faHouse} className={styles.listIcon} width={14} height={14}/>Belarus</li>
-      {/*<li className={styles.contactListItem}><FontAwesomeIcon icon={faGithub} /><a href={'https://github.com/kalibria'} target={'_blank'}>kalibria</a></li>*/}
-      <li className={styles.contactListItem}>
+      <li className={styles.contactListItem}><FontAwesomeIcon icon={faHouse} className={styles.listIcon} width={15} height={15}/>Belarus</li>
+      <li className={styles.contactListItem}><div className={styles.listIcon}><Image src={gitHub} alt={'gitHub'}  width={15} height={15} /></div><a href={'https://github.com/kalibria'} target={'_blank'}>kalibria</a></li>
+      <li className={styles.contactListItem}><div className={styles.listIcon}>
         <Image
-          src={linkedIn}  width={14} height={14} alt={'Linkedin'} className={styles.listIcon}/>
-        <a href={'https://www.linkedin.com/in/mariya-kushlianskaya-228b3889/'} target={'_blank'}>mariya-kushlianskaya</a></li>
+          src={linkedIn}  width={14} height={14} alt={'Linkedin'}/></div>
+        <a href={'https://www.linkedin.com/in/maria-kushlianskaya-228b3889/'} target={'_blank'}>mariya-kushlianskaya</a></li>
 
     </ul>
 
