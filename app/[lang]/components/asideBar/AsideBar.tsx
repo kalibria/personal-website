@@ -22,8 +22,7 @@ function AsideBar () {
       <li className={`${styles.contactListItem} + ${styles.asideBarEmail}`} ><FontAwesomeIcon icon={faEnvelope} className={styles.listIcon} width={14} height={14}/><p className={styles.asideBarEmailText}>mariakazakova92@gmail.com</p></li>
       <li className={styles.contactListItem}><FontAwesomeIcon icon={faGlobe} className={styles.listIcon} width={14} height={14}/><a href={'https://kalibria.online'} target={'_blank'}>kalibria.online</a></li>
       <li className={styles.contactListItem}><FontAwesomeIcon icon={faHouse} className={styles.listIcon} width={14} height={14}/>Belarus</li>
-      <li className={styles.contactListItem}><Image
-        src={'/github.svg'} width={14} height={14} alt={'Github'} className={styles.listIcon}/><a href={'https://github.com/kalibria'} target={'_blank'}>kalibria</a></li>
+      {/*<li className={styles.contactListItem}><FontAwesomeIcon icon={faGithub} /><a href={'https://github.com/kalibria'} target={'_blank'}>kalibria</a></li>*/}
       <li className={styles.contactListItem}>
         <Image
           src={linkedIn}  width={14} height={14} alt={'Linkedin'} className={styles.listIcon}/>

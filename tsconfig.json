@@ -23,6 +23,7 @@
     "paths": {
       "@/app/*": ["./app/*"],
       "@/dictionaries/*": ["./dictionaries/*"],
+      "public/*": ["./public/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],

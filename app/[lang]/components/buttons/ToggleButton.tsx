@@ -16,7 +16,7 @@ export default function ToggleButton() {
   }
 
   return (
-    <ul className='flex gap-x-3'>
+    <ul className='flex flex-row gap-x-3 '>
       {i18n.locales.map(locale => {
         return (
           <li key={locale}>

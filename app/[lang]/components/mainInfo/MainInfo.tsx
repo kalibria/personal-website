@@ -1,6 +1,4 @@
-import {IMainInfo} from 'app/[lang]/components/mainInfo/interfaces';
-import {getDictionary} from 'app/[lang]/dictionaries';
-import {Locale} from 'i18n.config';
+import {IMainInfo} from '@/dictionaries/interfaces';
 import styles from './mainInfo.module.css'
 
 export default  function MainInfo({mainInfo}:IMainInfo ){

@@ -1,10 +1,13 @@
 import './globals.css';
 import { Locale, i18n } from '../../i18n.config';
-import { Inter } from 'next/font/google';
+import { Open_Sans } from 'next/font/google';
 import React from 'react';
 
 
-const inter = Inter({ subsets: ['latin'] })
+const openSans = Open_Sans({
+  subsets: ['latin'],
+  display: 'swap',
+})
 
 export const metadata = {
   title: 'Mary Kushlianskaya',
@@ -26,7 +29,7 @@ export default function Layout({
 }: Props) {
   return (
     <html lang={params.lang}>
-      <body className={inter.className} lang={params.lang}>{children}</body>
+      <body className={openSans.className} lang={params.lang}>{children}</body>
     </html>
   )
 }
