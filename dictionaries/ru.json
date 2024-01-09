@@ -3,6 +3,8 @@
     "print": "печать"
   },
   "asideBar": {
+    "name": "Мария Кушлянская",
+    "role": "Фронтенд разработчик",
     "highlightedWords": {
       "skills":  "Навыки",
       "languages":  "Языки",

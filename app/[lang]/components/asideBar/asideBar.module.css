@@ -73,6 +73,9 @@
     .asideBarEmailText{
         font-size: 13px;
     }
+    .mobileText {
+        font-size: 13px;
+    }
 
     .asideBarHeader {
         display: block;

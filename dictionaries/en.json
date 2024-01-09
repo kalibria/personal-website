@@ -3,6 +3,8 @@
     "print": "print"
   },
   "asideBar": {
+    "name": "Maria Kushlianskaya",
+    "role": "Front-End Developer",
     "highlightedWords": {
       "skills":  "Skills",
       "languages":  "Languages",

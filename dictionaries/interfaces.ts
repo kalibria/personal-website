@@ -50,6 +50,8 @@ interface HighlightedWords {
 
 export interface IAsideBar {
   asideBar: {
+    name: string,
+    role: string,
     country: string,
     highlightedWords: HighlightedWordsAsideBar,
     skills: AsideBarSkills,

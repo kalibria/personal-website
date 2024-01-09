@@ -14,13 +14,13 @@ function AsideBar ({asideBar}:IAsideBar) {
     <div className={styles.photoAndContactsContainer}>
     <div className={styles.myPhotoContainer} />
       <header className={styles.asideBarHeader}>
-        <h1>MARIA KUSHLIANSKAYA</h1>
-        <p>FRONT-END DEVELOPER</p>
+        <h1>{asideBar.name}</h1>
+        <p className={styles.mobileText}>{asideBar.role}</p>
         <hr/>
       </header>
     </div>
     <ul className={styles.contactsList}>
-      <li className={styles.contactListItem}><FontAwesomeIcon icon={faPhone} className={styles.listIcon} width={14} height={14}/>+375292923404</li>
+      <li className={`${styles.contactListItem} + ${styles.mobileText}`}><FontAwesomeIcon icon={faPhone} className={styles.listIcon} width={14} height={14}/>+375292923404</li>
       <li className={`${styles.contactListItem} + ${styles.asideBarEmail}`} ><FontAwesomeIcon icon={faEnvelope} className={styles.listIcon} width={14} height={14}/><p className={styles.asideBarEmailText}>mariakazakova92@gmail.com</p></li>
       <li className={styles.contactListItem}><FontAwesomeIcon icon={faGlobe} className={styles.listIcon} width={14} height={14}/><a href={'https://kalibria.online'} target={'_blank'}>kalibria.online</a></li>
       <li className={styles.contactListItem}><FontAwesomeIcon icon={faHouse} className={styles.listIcon} width={15} height={15}/>
