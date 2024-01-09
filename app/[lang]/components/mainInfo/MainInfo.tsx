@@ -14,6 +14,7 @@ export default  function MainInfo({mainInfo}:IMainInfo ){
 
         <div className={styles.textContainer}>
           <p>{mainInfo.aboutMaria.introduction}</p>
+          {/*<p>{mainInfo.aboutMaria.studyYears}</p>*/}
           <p>{mainInfo.aboutMaria.proudProject1} <a
             href="https://github.com/kalibria/Family-car-booking-app#readme" target={'_blank'}>Family Car Booking App</a>{mainInfo.aboutMaria.proudProject2} </p>
           <p className={styles.nonPrintable}>{mainInfo.aboutMaria.petProjects1} <a href={'https://github.com/kalibria'}>github.com/kalibria</a>) {mainInfo.aboutMaria.petProjects2}</p>
@@ -40,7 +41,7 @@ export default  function MainInfo({mainInfo}:IMainInfo ){
           <p className={styles.nonPrintable}>{mainInfo.futurePlans}
           </p>
           <p className={styles.nonPrintable}>{mainInfo.eagerToWork}</p>
-          <p>{mainInfo.contribution} </p>
+          <p className={styles.nonPrintable}>{mainInfo.contribution} </p>
 
         </div>
       </article>

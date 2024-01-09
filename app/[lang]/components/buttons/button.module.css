@@ -31,6 +31,9 @@
     .buttonPrint {
         display: none;
     }
+    .toggleButton {
+        display: none;
+    }
 }
 
 @media (max-width: 480px) {
