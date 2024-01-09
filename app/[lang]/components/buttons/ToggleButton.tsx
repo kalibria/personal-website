@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
+import styles from './button.module.css'
 
 import { i18n } from '../../../../i18n.config'
 
@@ -16,7 +17,7 @@ export default function ToggleButton() {
   }
 
   return (
-    <ul className='flex flex-row gap-x-3 '>
+    <ul className={styles.toggleButton}>
       {i18n.locales.map(locale => {
         return (
           <li key={locale}>

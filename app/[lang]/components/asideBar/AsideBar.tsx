@@ -20,7 +20,7 @@ function AsideBar ({asideBar}:IAsideBar) {
       </header>
     </div>
     <ul className={styles.contactsList}>
-      <li className={styles.contactListItem}><FontAwesomeIcon icon={faPhone} className={styles.listIcon} width={14} height={14}/>+375 29 292 34 04</li>
+      <li className={styles.contactListItem}><FontAwesomeIcon icon={faPhone} className={styles.listIcon} width={14} height={14}/>+375292923404</li>
       <li className={`${styles.contactListItem} + ${styles.asideBarEmail}`} ><FontAwesomeIcon icon={faEnvelope} className={styles.listIcon} width={14} height={14}/><p className={styles.asideBarEmailText}>mariakazakova92@gmail.com</p></li>
       <li className={styles.contactListItem}><FontAwesomeIcon icon={faGlobe} className={styles.listIcon} width={14} height={14}/><a href={'https://kalibria.online'} target={'_blank'}>kalibria.online</a></li>
       <li className={styles.contactListItem}><FontAwesomeIcon icon={faHouse} className={styles.listIcon} width={15} height={15}/>

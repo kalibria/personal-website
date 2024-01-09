@@ -10,6 +10,23 @@
     background-color: #f5deb361;
 }
 
+.toggleButton {
+    display: flex;
+    gap: 1vw;
+    border: solid 2px gray;
+    border-radius: 5px;
+    padding: 5px;
+
+    position: absolute;
+    top: 4vh;
+    right: 11vw
+}
+
+.toggleButton li:hover {
+    background-color: grey;
+}
+
+
 @media print {
     .buttonPrint {
         display: none;
