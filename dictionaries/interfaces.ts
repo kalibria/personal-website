@@ -47,3 +47,42 @@ interface HighlightedWords {
   other: string
   whyMe: string,
 }
+
+export interface IAsideBar {
+  asideBar: {
+    country: string,
+    highlightedWords: HighlightedWordsAsideBar,
+    skills: AsideBarSkills,
+    languages: AsideBarLang,
+    education: AsideBarEducation
+  }
+
+}
+
+interface HighlightedWordsAsideBar {
+  skills:  string,
+  languages:  string,
+  education: string
+}
+
+interface AsideBarSkills {
+  javascript: string,
+  typescript: string,
+  react: string,
+  redux: string,
+  html5Css3: string,
+  jest: string,
+  git: string
+}
+
+interface AsideBarLang {
+  russian: string,
+  english: string
+}
+
+interface AsideBarEducation {
+  petProjectPeriod: string,
+  petProjects: string,
+  universityPeriod: string,
+  university: string
+}

@@ -14,14 +14,14 @@ async function Page({
   params: { lang: Locale }
 }) {
 
-  const {buttons, mainInfo} = await getDictionary(lang);
+  const {buttons, mainInfo, asideBar} = await getDictionary(lang);
   const textButton = buttons.print;
 
   return (<div className={styles.resumePage}>
       <PrintButton text={textButton}/>
       <LangButton/>
       <div className={styles.resumeContainer}>
-        <AsideBar/>
+        <AsideBar asideBar={asideBar}/>
         <MainInfo mainInfo={mainInfo}/>
       </div>
     </div>
