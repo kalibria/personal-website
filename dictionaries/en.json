@@ -34,12 +34,12 @@
 
   "mainInfo": {
     "highlightedWords": {
-      "mySkills": "My skills:",
+      "mySkills": "My skills",
       "languages": "Languages:",
       "reactEcosystem": "React ecosystem:",
       "styling": "Styling:",
       "other": "Other:",
-      "whyMe": "Why me:"
+      "whyMe": "Why me"
     },
     "aboutMaria": {
       "name": "Maria Kushlianskaya",
@@ -52,9 +52,9 @@
       "petProjects2": "over a couple of years, I am pretty sure I am ready to start developing web apps professionally."
     },
     "skills": {
-      "languages": "Languages: Javascript, Typescript",
-      "reactEcosystem": "React ecosystem: React, Redux, Redux Toolkit, RTK Query, Formik, and other React libs",
-      "styling": "Styling: CSS3, SCSS, Material UI, Bootstrap, a bit of Ant Design. Use CSS Flexbox and some CSS Grid to design web pages. Practice responsive design",
+      "languages": "Javascript, Typescript",
+      "reactEcosystem": "React, Redux, Redux Toolkit, RTK Query, Formik, and other React libs",
+      "styling": "CSS3, SCSS, Material UI, Bootstrap, a bit of Ant Design. Use CSS Flexbox and some CSS Grid to design web pages. Practice responsive design",
       "other": "Other: Know how to use Postman for backend requests, utilize Jest and React Testing Library in pet projects. Use Git CLI and know how to work with Github"
     },
     "whyMe": {
@@ -65,8 +65,8 @@
       "workflow": "Work on my pet projects using Jira, decomposing tasks and creating PRs to be reviewed by the mentor",
       "learnTech": "Learn technologies by reading documentation in English as it is the best source of information"
     },
-      "currentProject": "For now, I am working on my personal website. It will be responsive, and I am planning to use TypeScript, React, Redux, and Next.js.",
-      "futurePlans": "There’s still a lot to learn, of course! As for technologies, my plans include new CSS stuff like container queries and layers, as well as Storybook, Redux Saga, Styled Components, GraphQL, PWAs, and more. I will continue working to increase my English language level. Long term, I am also interested in people and resource management.",
+      "currentProject": "For now, I am working on my personal website. It will be responsive, and I am planning to use TypeScript, React, Redux, and Next.js",
+      "futurePlans": "There’s still a lot to learn, of course! As for technologies, my plans include new CSS stuff like container queries and layers, as well as Storybook, Redux Saga, Styled Components, GraphQL, PWAs, and more. I will continue working to increase my English language level.",
       "eagerToWork": "I am eager to work alongside experienced developers who can mentor and guide me towards becoming a proficient frontend developer.",
       "contribution": "In my opinion, modern web technologies, together with AI, are what push successful businesses forward, and I want to help companies drive this effort."
 

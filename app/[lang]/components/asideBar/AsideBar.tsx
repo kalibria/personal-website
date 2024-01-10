@@ -40,7 +40,7 @@ function AsideBar ({asideBar}:IAsideBar) {
         <li>Javascript, Typescript</li>
         <li>React, Redux</li>
         <li>HTML5/CSS3</li>
-        <li>Jest</li>
+        {/*<li>Jest</li>*/}
         <li>Git</li>
       </ul>
     </div>
