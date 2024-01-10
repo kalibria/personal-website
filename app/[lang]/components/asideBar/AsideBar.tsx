@@ -20,15 +20,15 @@ function AsideBar ({asideBar}:IAsideBar) {
       </header>
     </div>
     <ul className={styles.contactsList}>
-      <li className={`${styles.contactListItem} + ${styles.mobileText}`}><FontAwesomeIcon icon={faPhone} className={styles.listIcon} width={14} height={14}/>+375292923404</li>
-      <li className={`${styles.contactListItem} + ${styles.asideBarEmail}`} ><FontAwesomeIcon icon={faEnvelope} className={styles.listIcon} width={14} height={14}/><p className={styles.asideBarEmailText}>mariakazakova92@gmail.com</p></li>
+      <li className={styles.contactListItem}><FontAwesomeIcon icon={faPhone} className={styles.listIcon} width={14} height={14}/>+375292923404</li>
+      <li className={styles.contactListItem} ><FontAwesomeIcon icon={faEnvelope} className={styles.listIcon} width={14} height={14}/><p>mariakazakova92@gmail.com</p></li>
       <li className={styles.contactListItem}><FontAwesomeIcon icon={faGlobe} className={styles.listIcon} width={14} height={14}/><a href={'https://kalibria.online'} target={'_blank'}>kalibria.online</a></li>
-      <li className={styles.contactListItem}><FontAwesomeIcon icon={faHouse} className={styles.listIcon} width={15} height={15}/>
+      <li className={styles.contactListItem}><FontAwesomeIcon icon={faHouse} className={styles.listIcon} width={14} height={14}/>
         {asideBar.country}</li>
       <li className={styles.contactListItem}><div className={styles.listIcon}><Image src={gitHub} alt={'gitHub'}  width={15} height={15} /></div><a href={'https://github.com/kalibria'} target={'_blank'}>kalibria</a></li>
       <li className={styles.contactListItem}><div className={styles.listIcon}>
         <Image
-          src={linkedIn}  width={14} height={14} alt={'Linkedin'}/></div>
+          src={linkedIn}  width={15} height={15} alt={'Linkedin'}/></div>
         <a href={'https://www.linkedin.com/in/maria-kushlianskaya-228b3889/'} target={'_blank'}>mariya-kushlianskaya</a></li>
 
     </ul>
