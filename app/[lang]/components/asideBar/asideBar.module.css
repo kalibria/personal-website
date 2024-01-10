@@ -47,6 +47,11 @@
     margin-top: 10px;
 }
 
+.linkedin {
+    display: flex;
+    margin-top: 0;
+}
+
 .subtitle {
     margin-bottom: 0;
 }
@@ -91,16 +96,12 @@
     .contactsList{
         display: block;
         padding: 0;
-        /*grid-template-columns: 1fr 1fr;*/
-        /*grid-template-rows: repeat(3, 1fr);*/
-        /*grid-row-gap: 5px;*/
     }
 
 
     .listIcon {
         margin-right: 3px;
         margin-top: 5px;
-
     }
 
     .myPhotoContainer{
