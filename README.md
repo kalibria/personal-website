@@ -3,7 +3,7 @@
 
 The purpose of this website is to showcase my skills, portfolio, and any other relevant information.
 
-URL: [kalibria.online](https://kalibria.online)
+URL: [kalibria.tech](https://kalibria.tech)
 
 ## Table of contents
 
@@ -29,14 +29,15 @@ To run this project, install it locally using npm:
 
 ## Status
 
-The website is in development. For now the website is only a CV page (desktop and mobile version). I am planing create a full site that will include the following features:
+The website is in development. For now the website is only a CV page (desktop and mobile version). I am planing create a full-fledged site that will include the following features:
 
 * Home: A page that introduces me as a developer and provides a brief overview of my skills and experience.
 * Portfolio: An interactive gallery showcasing my past projects, with the ability to view project details and click through to live demos.
 * Skills: A list of my technical skills, including proficiency levels and relevant experience.
 
 ## Deployment
+The site is deployed to Vercel, with a domain bought from `hoster.by`:
 
-1. Make sure you copy .env file to `.env.local` and fill in all the env variables 
+1. Make sure you copy .env file to `.env.local` and fill out all the env variables 
 2. Run `npm run deploy` to deploy the website
  

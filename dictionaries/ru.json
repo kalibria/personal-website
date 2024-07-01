@@ -1,16 +1,16 @@
 {
   "buttons": {
-    "print": "печать"
+    "print": "Печать"
   },
   "asideBar": {
     "name": "Мария Кушлянская",
-    "role": "Фронтенд разработчик",
+    "role": "Фронтенд-разработчик",
     "highlightedWords": {
       "skills":  "Навыки",
       "languages":  "Языки",
       "education": "Образование"
     },
-    "country": "Буларусь",
+    "country": "Беларусь",
     "skills": {
       "javascript": "JavaScript",
       "typescript": "TypeScript",
@@ -22,7 +22,7 @@
     },
     "languages": {
       "russian": "Русский - родной",
-      "english": "Английский - средний уровень"
+      "english": "Английский - чтение документации и базовое общение"
     },
     "education": {
       "petProjectPeriod": "2020 - настоящее время: ",
