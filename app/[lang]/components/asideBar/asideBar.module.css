@@ -1,5 +1,4 @@
 .asideBarContainer{
-    background-color: rgb(34 42 54 / 11%);
     padding: 3rem 1rem;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -20,7 +19,6 @@
 
     background-image: url('../imgs/IMG (93)-min.jpg');
     background-size: cover;
-    filter: saturate(75%);
     margin: auto;
 }
 
