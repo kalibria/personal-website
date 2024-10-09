@@ -6,8 +6,8 @@ export default  function MainInfo({mainInfo}:IMainInfo ){
   return <>
     <main className={styles.mainContainer}>
       <header>
-        <h1>{mainInfo.aboutMaria.name}</h1>
-        <p className={styles.text}>{mainInfo.aboutMaria.role}</p>
+        <p className={styles.headerName}>{mainInfo.aboutMaria.name}</p>
+        <h1 className={styles.headerSubtitle}>{mainInfo.aboutMaria.role}</h1>
         <hr/>
       </header>
       <article>

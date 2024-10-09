@@ -20,6 +20,7 @@
 
     background-image: url('../imgs/IMG (93)-min.jpg');
     background-size: cover;
+    filter: saturate(75%);
     margin: auto;
 }
 
