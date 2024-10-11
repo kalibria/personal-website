@@ -2,7 +2,7 @@ export interface IMainInfo {
   mainInfo: {
     aboutMaria: AboutMaria,
     skills: Skills,
-    whyMe: WhyMe,
+    whyMe: WhyMeType,
     currentProject: string,
     futurePlans: string,
     eagerToWork:string,
@@ -12,7 +12,7 @@ export interface IMainInfo {
 
 }
 
-interface AboutMaria {
+export interface AboutMaria {
   name: string,
   role: string,
   introduction: string,
@@ -21,14 +21,14 @@ interface AboutMaria {
   aboutProjects2: string
 }
 
-interface Skills {
+export interface Skills {
   languages: string,
   reactEcosystem: string,
   styling: string,
   other: string
 }
 
-interface WhyMe {
+export interface WhyMeType {
   modularCode: string,
   componentDesign: string,
   mappers: string,
@@ -37,7 +37,7 @@ interface WhyMe {
   learnTech: string
 }
 
-interface HighlightedWords {
+export interface HighlightedWords {
   mySkills: string,
   languages: string,
   reactEcosystem: string,
