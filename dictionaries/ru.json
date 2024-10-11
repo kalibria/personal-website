@@ -16,6 +16,7 @@
       "typescript": "TypeScript",
       "react": "React",
       "redux": "Redux",
+      "next.js": "Next.js",
       "html5Css3": "HTML5/CSS3",
       "jest": "Jest",
       "git": "Git"
@@ -25,8 +26,10 @@
       "english": "Английский - чтение документации и базовое общение"
     },
     "education": {
-      "petProjectPeriod": "2020 - настоящее время: ",
-      "petProjects": "Личные проекты, изучение теории и документации, работа с наставником",
+      "petProjectPeriod": "2024: ",
+      "petProjects": "It-incubator",
+      "petProjectPeriod1": "2022 - 2023:",
+      "petProjects1": "Самостоятельное изучение основ программирования",
       "universityPeriod": "2009 - 2014: ",
       "university": "Белорусский государственный экономический университет"
     }

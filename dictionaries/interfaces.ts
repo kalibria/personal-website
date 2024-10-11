@@ -85,6 +85,8 @@ interface AsideBarLang {
 interface AsideBarEducation {
   petProjectPeriod: string,
   petProjects: string,
+  petProjectPeriod1: string,
+  petProjects1: string,
   universityPeriod: string,
   university: string
 }

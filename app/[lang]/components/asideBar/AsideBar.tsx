@@ -37,8 +37,10 @@ function AsideBar ({asideBar}:IAsideBar) {
       <ul className={styles.list}>
         <li>Javascript, Typescript</li>
         <li>React, Redux</li>
+        <li>Next.js</li>
         <li>HTML5/CSS3</li>
-        {/*<li>Jest</li>*/}
+        <li>Styled Components/MUI</li>
+        <li>Jest</li>
         <li>Git</li>
       </ul>
     </div>
@@ -59,6 +61,11 @@ function AsideBar ({asideBar}:IAsideBar) {
         <li>
           <b>{asideBar.education.petProjectPeriod}</b> {asideBar.education.petProjects}
         </li>
+        <li>
+          <b>{asideBar.education.petProjectPeriod1}</b> {asideBar.education.petProjects1}
+        </li>
+
+
         <li>
           <b>{asideBar.education.universityPeriod}</b> {asideBar.education.university}
         </li>
