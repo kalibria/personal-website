@@ -38,6 +38,6 @@
 
 @media print {
     .resumeContainer{
-        border-radius: 0;
+        border: none
     }
 }
