@@ -17,8 +17,8 @@ interface AboutMaria {
   role: string,
   introduction: string,
   studyYears: string,
-  proudProject1: string,
-  proudProject2: string
+  aboutProjects1: string,
+  aboutProjects2: string
   petProjects1: string,
   petProjects2: string,
 }

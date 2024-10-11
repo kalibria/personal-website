@@ -1,12 +1,13 @@
 .list li::before {
-    content: "•"; /* Use any bullet or numbering style you prefer */
+    content: "•";
     display: inline-block;
-    width: 1em; /* Adjust the width as needed */
+    width: 1em;
 }
 
 .headerName {
     font-size: 32px;
     font-weight: 700;
+    padding-bottom: 10px;
 }
 
 .headerSubtitle {
@@ -16,8 +17,10 @@
 
 .mainContainer {
     margin: 3rem 1rem;
-    display: grid;
-    grid-row-gap: 20px;
+}
+
+.mainContainer header {
+    margin-bottom: 30px;
 }
 
 .nonPrintable {

@@ -10,15 +10,12 @@ export default  function MainInfo({mainInfo}:IMainInfo ){
         <h1 className={styles.headerSubtitle}>{mainInfo.aboutMaria.role}</h1>
         <hr/>
       </header>
+
       <article>
-
         <div className={styles.textContainer}>
-          <p>{mainInfo.aboutMaria.introduction}</p>
-          {/*<p>{mainInfo.aboutMaria.studyYears}</p>*/}
-          <p>{mainInfo.aboutMaria.proudProject1} <a
-            href="https://github.com/kalibria/Family-car-booking-app#readme" target={'_blank'}>Family Car Booking App</a>{mainInfo.aboutMaria.proudProject2} </p>
-          <p className={styles.nonPrintable}>{mainInfo.aboutMaria.petProjects1} <a href={'https://github.com/kalibria'}>github.com/kalibria</a>) {mainInfo.aboutMaria.petProjects2}</p>
-
+          <p>{mainInfo.aboutMaria.introduction} <b>TypeScript, React, Redux (RTK), Next.js, CSS.</b></p>
+          <p>{mainInfo.aboutMaria.aboutProjects1} <a
+            href="https://kalibria.github.io/Crazy-race" target={'_blank'}>Crazy race</a>{mainInfo.aboutMaria.aboutProjects2} <a href={"https://github.com/kalibria/Family-car-booking-app/blob/main/README.md"} target={'_blank'}>Family Car Booking App</a>, <a href={"https://github.com/kalibria/Todolist_for_portfolio"} target={'_blank'}>Task Manager.</a></p>
           <ul>
             <b>{mainInfo.highlightedWords.mySkills}</b>
             <li><b>{mainInfo.highlightedWords.languages}</b> {mainInfo.skills.languages}</li>
@@ -37,11 +34,11 @@ export default  function MainInfo({mainInfo}:IMainInfo ){
             <li>{mainInfo.whyMe.learnTech}</li>
           </ul>
 
-          <p className={styles.nonPrintable}>{mainInfo.currentProject}.</p>
-          <p className={styles.nonPrintable}>{mainInfo.futurePlans}
-          </p>
-          <p className={styles.nonPrintable}>{mainInfo.eagerToWork}</p>
-          <p className={styles.nonPrintable}>{mainInfo.contribution} </p>
+          {/*<p className={styles.nonPrintable}>{mainInfo.currentProject}.</p>*/}
+          {/*<p className={styles.nonPrintable}>{mainInfo.futurePlans}*/}
+          {/*</p>*/}
+          {/*<p className={styles.nonPrintable}>{mainInfo.eagerToWork}</p>*/}
+          {/*<p className={styles.nonPrintable}>{mainInfo.contribution} </p>*/}
 
         </div>
       </article>

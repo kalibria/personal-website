@@ -46,18 +46,15 @@
     "aboutMaria": {
       "name": "Мария Кушлянская",
       "role": "Фронтенд-разработчик",
-      "introduction": "Привет, я Мария. Считаю себя амбициозным и высокомотивированным разработчиком, готова начать свою карьеру в захватывающем мире веб-технологий.",
-      "studyYears": "В течение 2 лет я изучаю JavaScript и React, а также отточила свои навыки, выполняя pet проекты.",
-      "proudProject1": "Особенно горжусь приложением",
-      "proudProject2": ", где я успешно реализовала довольно сложный функционал, используя TypeScript, React и Redux, CSS.",
-      "petProjects1": "После выполнения нескольких pet-проектов (вы можете увидеть их все здесь",
-      "petProjects2":"за несколько лет, я уверена, что готова начать работать в команде."
+      "introduction": "Привет! Я фронтенд девелопер с опытом разработки 1+ год. Разрабатываю приложения, используя ",
+      "aboutProjects1": "В портфолио 5+ самостоятельно разработанных проектов. Начиная от простого и забавного ",
+      "aboutProjects2": " до более сложных и продвинутых"
     },
     "skills": {
         "languages": "Javascript, Typescript",
         "reactEcosystem": "React, Redux, Redux Toolkit, RTK Query, Formik и другие библиотеки React",
-        "styling": "CSS3, SCSS, Material UI, Bootstrap, немного Ant Design. Использую CSS Flexbox и некоторые элементы CSS Grid для проектирования веб-страниц. Практикую responsive и mobile-first дизайн",
-        "other": "Знаю, как использовать Postman для запросов к бэкэнду, использую Jest и React Testing Library в своих проектах. Использую Git CLI и знаю, как работать с Github"
+        "styling": "CSS3, SCSS, Material UI, Bootstrap, Styled Components. Использую CSS Flexbox и некоторые элементы CSS Grid для проектирования веб-страниц. Практикую responsive и mobile-first дизайн",
+        "other": "Знаю, как использовать Postman для запросов к бэкэнду, знакома со Storybook, использую Jest и React Testing Library в своих проектах. Использую Git CLI и знаю, как работать с Github"
     },
     "whyMe": {
       "modularCode": "Пишу модульный код с низкой связанностью",
