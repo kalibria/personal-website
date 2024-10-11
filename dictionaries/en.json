@@ -26,9 +26,11 @@
       "english": "English - intermediate"
     },
     "education": {
-      "petProjectPeriod": "2020 - present: ",
-      "petProjects": "Pet projects, documentation and theory studies, IT-centric English practice, work with mentor",
-      "universityPeriod": "2009 - 2014:  ",
+      "petProjectPeriod": "2024: ",
+      "petProjects": "It-incubator",
+      "petProjectPeriod1": "2022 - 2023:",
+      "petProjects1": "Self-study of programming basics",
+      "universityPeriod": "2009 - 2014: ",
       "university": "Belarusian State Economic University"
     }
   },
@@ -45,18 +47,15 @@
     "aboutMaria": {
       "name": "Maria Kushlianskaya",
       "role": "Front-End Developer",
-      "introduction": "I am Maria, an ambitious and highly motivated developer willing to jumpstart my career in an exciting world of web technologies.",
-      "studyYears": "During the 2 years of my studies, I dedicated myself to learning JavaScript and React, and also battle-tested these skills by doing personal projects.",
-      "proudProject1": "I am particularly proud of ",
-      "proudProject2": ", where I successfully implemented quite complex functionalities using Typescript, React, and Redux, CSS.",
-      "petProjects1": "After doing multiple pet projects (you can see them all here ",
-      "petProjects2": "over a couple of years, I am pretty sure I am ready to start developing web apps professionally."
+      "introduction": "Hello! I am a front-end developer with 1+ years of development experience. I develop applications using",
+      "aboutProjects1": "The portfolio includes 5+ independently developed projects. Starting from simple and funny ",
+      "aboutProjects2": " to more complex and advanced"
     },
     "skills": {
       "languages": "Javascript, Typescript",
       "reactEcosystem": "React, Redux, Redux Toolkit, RTK Query, Formik, and other React libs",
       "styling": "CSS3, SCSS, Material UI, Bootstrap, a bit of Ant Design. Use CSS Flexbox and some CSS Grid to design web pages. Practice responsive design",
-      "other": "Other: Know how to use Postman for backend requests, utilize Jest and React Testing Library in pet projects. Use Git CLI and know how to work with Github"
+      "other": "Other: I know how to use Postman for backend queries, familiar with Storybook, I use Jest and React Testing Library in my projects. Use Git CLI and know how to work with Github"
     },
     "whyMe": {
       "modularCode": "Write modular code with low coupling",

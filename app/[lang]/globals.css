@@ -1,13 +1,9 @@
-/* CSS Reset */
-
-/* 1. Box sizing reset */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
-/* 2. Remove default margin and padding */
 body,
 h1,
 h2,
@@ -28,19 +24,18 @@ dd {
   padding: 0;
 }
 
-/* 3. Remove default list styles */
 ul,
 ol {
   list-style: none;
 }
 
-/* 4. Remove default quote styles */
+
 blockquote,
 q {
   quotes: none;
 }
 
-/* 5. Remove default quote styles */
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -49,13 +44,13 @@ q:after {
   content: none;
 }
 
-/* 6. Remove default table spacing */
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* 7. Reset form elements */
+
 input,
 button,
 textarea,
@@ -72,12 +67,10 @@ select {
   -webkit-appearance: none;
 }
 
-/* 8. Remove default buttons styles */
 button {
   cursor: pointer;
 }
 
-/* 9. Remove default text-decoration */
 a {
   text-decoration: none;
 }

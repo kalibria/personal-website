@@ -19,8 +19,6 @@ interface AboutMaria {
   studyYears: string,
   aboutProjects1: string,
   aboutProjects2: string
-  petProjects1: string,
-  petProjects2: string,
 }
 
 interface Skills {
@@ -82,7 +80,7 @@ interface AsideBarLang {
   english: string
 }
 
-interface AsideBarEducation {
+export interface AsideBarEducation {
   petProjectPeriod: string,
   petProjects: string,
   petProjectPeriod1: string,
