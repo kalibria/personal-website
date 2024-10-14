@@ -18,7 +18,8 @@ export interface AboutMaria {
   introduction: string,
   studyYears: string,
   aboutProjects1: string,
-  aboutProjects2: string
+  aboutProjects2: string,
+  finalWordsInIntroduction: string
 }
 
 export interface Skills {

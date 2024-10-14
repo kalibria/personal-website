@@ -49,7 +49,8 @@
       "role": "Front-End Developer",
       "introduction": "Hello! I am a front-end developer with 1+ years of development experience. I develop applications using",
       "aboutProjects1": "The portfolio includes 5+ independently developed projects. Starting from simple and funny ",
-      "aboutProjects2": " to more complex and advanced"
+      "aboutProjects2": " to more complex and advanced",
+      "finalWordsInIntroduction": " Now I plan to deepen my knowledge of Next.js and improve my English."
     },
     "skills": {
       "languages": "Javascript, Typescript",
