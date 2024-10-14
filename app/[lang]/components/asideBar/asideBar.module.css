@@ -66,6 +66,10 @@
     margin: 0;
 }
 
+.telegramIcon {
+    transform: translateX(-10px);
+}
+
 .photoAndContactsContainer {
     display: block;
 }
